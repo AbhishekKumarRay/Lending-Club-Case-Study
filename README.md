@@ -1,52 +1,44 @@
-# Project Name
-> Outline a brief description of your project.
+## Lending club case study 
+### Description of project
+> Lending a loan is "risky" decision that a company takes .To avoid financial loss a company must choose to finance people cautiously.
+ - The study identifies the risky loan applicants who might end up being a "defaulter" and can significantly bring financial loss to the lending company.
+ - A rigourous analysis is done to identify those driving factors which helps us narrow down to pinpoint who might end up being a defaulter.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The borrowers who default cause the largest amount of loss to the lenders, reduces lender’s cash flow. Identifying those risky applicants helps in cutting down the amount of credit loss to the organization. The data set used is 'loan.csv'.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Borrowers who have been employed for more than 10 years are at a higher likelihood of experiencing charge-offs.
+Borrowers residing in mortgaged homes with loan amounts exceeding 12,000 are prone to charge-offs.
+Loans designated for debt consolidation, credit card refinancing, or small business ventures, with an average loan amount surpassing 12,000, exhibit a higher likelihood of default.
+Loans carrying the highest interest rates within their respective categories are more prone to charge-offs.
+Loans designated for housing, debt consolidation, and small business, featuring the highest interest rates, are more likely to result in charge-offs.
+Longer loan tenures tend to have higher interest rates, and individuals with terms between 15-20% are more susceptible to charge-offs.
+Shorter loan tenures tend to have lower interest rates, and individuals with terms between 10-15% are more prone to charge-offs.
+Borrowers falling under grade E, F, or G, with an average loan amount exceeding 15,000, are at an increased risk of charge-offs.
+Borrowers with a verification status of "not-verified," holding loan amounts between 5,000 and 12,500, are more likely to experience charge-offs.
+Borrowers with "not-verified" and "verified" verification statuses exhibit an equal proportion in charge-off occurrences.
+An increase in the number of installments corresponds to a higher likelihood of charge-offs for borrowers with elevated interest rates.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.7.6
+- NumPy - version 1.18.1
+- Pandas - version 1.2.3
+- Matplotlib - version 3.1.3
+- Seaborn - version 0.10.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was created as a case study required for Executive PG Programme in Machine Learning & AI - IIIT, Bangalore
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
